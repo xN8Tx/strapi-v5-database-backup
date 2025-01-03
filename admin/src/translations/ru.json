@@ -1,0 +1,10 @@
+{
+  "plugin.name": "Резервное копирование БД",
+  "plugin.create-backup": "Создать копию",
+  "plugin.table.title": "Название",
+  "plugin.table.createdAt": "Создан",
+  "plugin.table.actions": "Действия",
+  "plugin.table.delete": "Удалить",
+  "plugin.table.download": "Скачать",
+  "plugin.table.restore": "Восстановить"
+}

@@ -1,0 +1,10 @@
+{
+  "plugin.name": "Database Backup",
+  "plugin.create-backup": "Create backup",
+  "plugin.table.title": "Title",
+  "plugin.table.createdAt": "Created At",
+  "plugin.table.actions": "Actions",
+  "plugin.table.delete": "Delete",
+  "plugin.table.download": "Download",
+  "plugin.table.restore": "Restore"
+}

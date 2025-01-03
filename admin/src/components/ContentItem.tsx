@@ -37,7 +37,7 @@ export const ContentItem = ({ entry }: { entry: BackupData }) => {
         toggleNotification({
           type: 'success',
           message: formatMessage({
-            id: getTranslation('deleteAction.success'),
+            id: getTranslation('plugin.delete.success'),
             defaultMessage: 'Succesfully delete backup.',
           }),
         });
@@ -46,7 +46,7 @@ export const ContentItem = ({ entry }: { entry: BackupData }) => {
         toggleNotification({
           type: 'danger',
           message: formatMessage({
-            id: getTranslation('deleteAction.error'),
+            id: getTranslation('plugin.delete.error'),
             defaultMessage: 'Error when delete backup.',
           }),
         }),
@@ -66,7 +66,7 @@ export const ContentItem = ({ entry }: { entry: BackupData }) => {
         toggleNotification({
           type: 'success',
           message: formatMessage({
-            id: getTranslation('restoreAction.success'),
+            id: getTranslation('plugin.restore.success'),
             defaultMessage: 'Succesfully restore backup.',
           }),
         });
@@ -75,7 +75,7 @@ export const ContentItem = ({ entry }: { entry: BackupData }) => {
         toggleNotification({
           type: 'danger',
           message: formatMessage({
-            id: getTranslation('restoreAction.error'),
+            id: getTranslation('plugin.restor.error'),
             defaultMessage: 'Error when restore backup.',
           }),
         }),

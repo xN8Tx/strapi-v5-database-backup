@@ -6,5 +6,12 @@
   "plugin.table.actions": "Действия",
   "plugin.table.delete": "Удалить",
   "plugin.table.download": "Скачать",
-  "plugin.table.restore": "Восстановить"
+  "plugin.table.restore": "Восстановить",
+  "plugin.restore.success": "Резервная копия успешно восстановлена.",
+  "plugin.restore.error": "Не удалось восстановить резервную копию.",
+  "plugin.delete.success": "Резервная копия успешно удалена.",
+  "plugin.delete.error": "Не удалось удалить резервную копию.",
+  "plugin.not-found.message": "Резервные копии не найдены.",
+  "plugin.modal.success": "Резервная копия успешно создана.",
+  "plugin.modal.error": "Не удалось создать резервную копию."
 }

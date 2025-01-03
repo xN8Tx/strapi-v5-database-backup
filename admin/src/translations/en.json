@@ -6,5 +6,12 @@
   "plugin.table.actions": "Actions",
   "plugin.table.delete": "Delete",
   "plugin.table.download": "Download",
-  "plugin.table.restore": "Restore"
+  "plugin.table.restore": "Restore",
+  "plugin.restore.success": "Succesfully restore backup.",
+  "plugin.restore.error": "Failed to restore backup.",
+  "plugin.delete.success": "Succesfully delete backup.",
+  "plugin.delete.error": "Failed to delete backup.",
+  "plugin.not-found.message": "Backups not found.",
+  "plugin.modal.success": "Succesfully created backup.",
+  "plugin.modal.error": "Failed to create backup."
 }

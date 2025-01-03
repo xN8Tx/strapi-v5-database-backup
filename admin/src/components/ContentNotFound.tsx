@@ -12,8 +12,8 @@ export const ContentNotFound = () => {
       <Td colSpan={3}>
         <EmptyStateLayout
           content={formatMessage({
-            id: getTranslation('dataNotFound.message'),
-            defaultMessage: 'Data content found',
+            id: getTranslation('plugin.not-found.message'),
+            defaultMessage: 'Backups not found.',
           })}
           hasRadius
           icon={<EmptyDocuments width="16rem" />}

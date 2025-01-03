@@ -31,7 +31,7 @@ export const CreateBackup = () => {
         toggleNotification({
           type: 'success',
           message: formatMessage({
-            id: getTranslation('modal.success'),
+            id: getTranslation('plugin.modal.success'),
             defaultMessage: 'Succesfully create backup.',
           }),
         });
@@ -40,8 +40,8 @@ export const CreateBackup = () => {
         toggleNotification({
           type: 'danger',
           message: formatMessage({
-            id: getTranslation('modal.error'),
-            defaultMessage: 'Error when create new backup.',
+            id: getTranslation('plugin.modal.error'),
+            defaultMessage: 'Failed to create backup.',
           }),
         }),
     }

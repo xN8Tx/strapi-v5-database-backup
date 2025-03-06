@@ -30,7 +30,7 @@ sudo apt install sqlite3
 
 ```sh
 // use package manager for your OS
-sudo apt install mysql
+sudo apt install mysql-client mariadb-connector-c
 ```
 
 - If you use PostgreSQL:

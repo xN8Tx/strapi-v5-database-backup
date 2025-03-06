@@ -33,6 +33,13 @@ sudo apt install sqlite3
 sudo apt install mysql-client mariadb-connector-c
 ```
 
+To correct work this plugin you need to add to environment variables to get access to manipulate database on your machine:
+
+```env
+DATABASE_ROOT_USER=your_root_user
+DATABASE_ROOT_PASSWORD=your_root_password
+```
+
 - If you use PostgreSQL:
 
 ```sh
